@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="./styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,7 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap"
       rel="stylesheet"
     />
-    <title>BrownMusket</title>
+    <title>BrownMusket's Notes</title>
     <script
       src="https://kit.fontawesome.com/44611aeb4f.js"
       crossorigin="anonymous"
@@ -45,248 +49,10 @@
       <section id="buttons">
         <h2>What Do You Want To Learn About?</h2>
         <h3>Click One To Procede</h3>
-        <a href="https://www.facebook.com/redom.mahir.7"
-          ><button>HTML</button></a
-        >
-        <a href=""><button>CSS</button></a>
+        <a href="./html.html"><button>HTML</button></a>
+        <a href="./css.html"><button>CSS</button></a>
         <a href=""><button>GitHub</button></a>
       </section>
-
-      <!-- HTML -->
-      <section id="html">
-        <header>
-          <h3>HTML Notes</h3>
-        </header>
-        <table>
-          <!-- Table Head -->
-          <thead>
-            <tr>
-              <th>Tag</th>
-              <th>Name</th>
-              <th>Description</th>
-            </tr>
-          </thead>
-          <!-- Table Body -->
-          <tbody>
-            <tr>
-              <td>&lt; DOCTYPE html &gt;</td>
-              <td>DOCTYPE</td>
-              <td>
-                The Tag tels the browser what type of information to expect.
-              </td>
-            </tr>
-            <tr>
-              <td>&lt; html &gt; ... &lt; html /&gt;</td>
-              <td>HTML</td>
-              <td>
-                Contains all HTML elements except for &lt DOCTYPE html &gt;.
-              </td>
-            </tr>
-            <tr>
-              <td>&lt; head &gt; ... &lt; head /&gt;</td>
-              <td>Head</td>
-              <td>
-                It is used to define the head portion of the document which
-                contains information related to the document.
-              </td>
-            </tr>
-            <tr>
-              <td>&lt; body &gt; ... &lt; body /&gt;</td>
-              <td>Body</td>
-              <td>
-                It used to define the main content present inside an HTML page.
-              </td>
-            </tr>
-            <tr>
-              <td>&lt; header &gt; ... &lt; header /&gt;</td>
-              <td>Header</td>
-              <td>
-                It is used to separate headings and subheadings inside the Body
-                Tag.
-              </td>
-            </tr>
-            <tr>
-              <td>&lt; main &gt; ... &lt; main /&gt;</td>
-              <td>Main</td>
-              <td>It specifies the main content of a document.</td>
-            </tr>
-            <tr>
-              <td>&lt; footer &gt; ... &lt; footer /&gt;</td>
-              <td>Footer</td>
-              <td>It used to define a footer of HTML document.</td>
-            </tr>
-            <tr>
-              <td>&lt; h1 &gt; ... &lt; h1 /&gt;</td>
-              <td>Heading</td>
-              <td>It indicates a title on a website.</td>
-            </tr>
-            <tr>
-              <td>&lt; p &gt; ... &lt; p /&gt;</td>
-              <td>Paragraph</td>
-              <td>It is used to defines a paragraph/phrases.</td>
-            </tr>
-            <tr>
-              <td>&lt; div &gt; ... &lt; div /&gt;</td>
-              <td>Division</td>
-              <td>
-                It is used in HTML to make divisions of content in the web page.
-              </td>
-            </tr>
-            <tr>
-              <td>&lt; em &gt; ... &lt; em /&gt;</td>
-              <td>Italic Emphasis</td>
-              <td>Turns The wrapped text into italic.</td>
-            </tr>
-            <tr>
-              <td>&lt; strong &gt; ... &lt; strong /&gt;</td>
-              <td>Bold Emplasis</td>
-              <td>
-                It is used to define text with strong importance. The content
-                inside is typically displayed in bold.
-              </td>
-            </tr>
-            <tr>
-              <td>&lt; nav &gt; ... &lt; nav /&gt;</td>
-              <td>Navigation</td>
-              <td>
-                It is used for declaring the navigational section in HTML
-                documents.
-              </td>
-            </tr>
-            <tr>
-              <td>&lt; article &gt; ... &lt; article /&gt;</td>
-              <td>Article</td>
-              <td>
-                An article is used to write something that can be only found
-                written between this tag. Ex: Forum Post, Blog Post or News
-                Story.
-              </td>
-            </tr>
-            <tr>
-              <td>&lt; section &gt; ... &lt; section /&gt;</td>
-              <td>Section</td>
-              <td>
-                It is defines the section of documents such as chapters,
-                headers, footers or any other sections.
-              </td>
-            </tr>
-            <tr>
-              <td>&lt; aside &gt; ... &lt; aside /&gt;</td>
-              <td>Aside</td>
-              <td>
-                It is used to defines some content aside from the content it is
-                placed in.
-              </td>
-            </tr>
-            <tr>
-              <td>&lt; figure &gt; ... &lt; figure /&gt;</td>
-              <td>Figure</td>
-              <td>
-                It specifies self-contained content, like illustrations,
-                diagrams, photos, code listings, etc.
-              </td>
-            </tr>
-            <tr>
-              <td>&lt; figcaption &gt; ... &lt; figcaption /&gt;</td>
-              <td>Figure Caption.</td>
-              <td>
-                It is a caption or legend describing the rest of the contents or
-                the Figure Tag.
-              </td>
-            </tr>
-            <tr>
-              <td>&lt; audio &gt; ... &lt; audio /&gt;</td>
-              <td>Audio</td>
-              <td>It is used to embed sound content in a document.</td>
-            </tr>
-            <tr>
-              <td>&lt; video &gt; ... &lt; video /&gt;</td>
-              <td>Video</td>
-              <td>It is used to embed video content in a document.</td>
-            </tr>
-            <tr>
-              <td>&lt; embed &gt; ... &lt; embed /&gt;</td>
-              <td>Embed</td>
-              <td>It is used for embedding external applications like gif.</td>
-            </tr>
-            <tr>
-              <td>&lt; br /&gt;</td>
-              <td>Break Line</td>
-              <td>It is used to produces a line break in text.</td>
-            </tr>
-            <tr>
-              <td>&lt; ul &gt; ... &lt; ul /&gt;</td>
-              <td>Unordered listed</td>
-              <td>It is used to create a list that uses bullet points.</td>
-            </tr>
-            <tr>
-              <td>&lt; ol &gt; ... &lt; ol /&gt;</td>
-              <td>Ordered List</td>
-              <td>It is used to create a list that uses Number System.</td>
-            </tr>
-            <tr>
-              <td>&lt; img /&gt;</td>
-              <td>Image</td>
-              <td>it is used to instructions on how to display an image</td>
-            </tr>
-            <tr>
-              <td>&lt; li &gt; ... &lt; li /&gt;</td>
-              <td>List Item</td>
-              <td>It is used to represent an item in a list</td>
-            </tr>
-            <tr>
-              <td>&lt; a &gt; ... &lt; a /&gt;</td>
-              <td>Anchor</td>
-              <td>It is used to create a hyperlink on the webpage.</td>
-            </tr>
-            <tr>
-              <td>&lt; !-- ---&gt;</td>
-              <td>Comment Out</td>
-              <td>It is used to insert comments in the source code.</td>
-            </tr>
-            <tr>
-              <td>&lt; table &gt; ... &lt; table /&gt;</td>
-              <td>Table</td>
-              <td>It is used to defines the overall table.</td>
-            </tr>
-            <tr>
-              <td>&lt; tr &gt; ... &lt; tr /&gt;</td>
-              <td>Table Row</td>
-              <td>It is used to create a table row.</td>
-            </tr>
-            <tr>
-              <td>&lt; thead &gt; ... &lt; thead /&gt;</td>
-              <td>Table Head</td>
-              <td>It is used to define the header of the table.</td>
-            </tr>
-            <tr>
-              <td>&lt; tbody&gt; ... &lt; tbody /&gt;</td>
-              <td>Table Body</td>
-              <td>It is used to define the body of the table.</td>
-            </tr>
-            <tr>
-              <td>&lt; tfoot&gt; ... &lt; tfoot/&gt;</td>
-              <td>Table Footer</td>
-              <td>It is used to define the footer of the table.</td>
-            </tr>
-            <tr>
-              <td>&lt; td &gt; ... &lt; td /&gt;</td>
-              <td>Table Data</td>
-              <td>It is used to define the data in the table.</td>
-            </tr>
-          </tbody>
-          <!-- Table Foot -->
-          <tfoot></tfoot>
-        </table>
-      </section>
-
-      <!-- CSS -->
-      <section id="css">
-        <header>
-          <h3>CSS Notes</h3>
-        </header>
-      </section>
-    </main>
 
     <footer></footer>
   </body>
