@@ -10,7 +10,8 @@ table,
 th,
 td {
   margin: auto;
-  /* border: 2px solid black; */
-  /* border-radius: 10px; */
-  /* border-spacing: 10px; */
+  border: 2px solid black;
+  border-radius: 10px;
+  border-spacing: 30px;
+  padding: 10px;
 }
